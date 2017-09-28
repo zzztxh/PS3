@@ -32,6 +32,6 @@ public class Deck {
 	
 	//TODO: Write a method that will return the number of a given eRank left in the deck.
 	
-	//TODO: Write a method that will return a boolean if a given card is left in the deck.
+	//TODO: Write a method that will return 0 or 1 if a given card is left in the deck.
 	
 }
