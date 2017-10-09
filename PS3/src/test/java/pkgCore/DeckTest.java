@@ -11,7 +11,6 @@ public class DeckTest {
 
 	@Test
 	public void TestEmptyDeck() throws DeckException {
-		//TODO: Build a deck, draw until you get a DeckException
 		Deck d = new Deck();
 		boolean bool = false;
 		try {
@@ -32,7 +31,6 @@ public class DeckTest {
 	
 	@Test
 	public void TestDrawSuit() {
-		//TODO: Build a deck, test the Draw(eSuit) method
 		Deck d = new Deck();
 		Card card = d.Draw(pkgEnum.eSuit.CLUBS);
 		assertTrue(card.geteSuit()==pkgEnum.eSuit.CLUBS);
@@ -40,14 +38,12 @@ public class DeckTest {
 	
 	@Test
 	public void TestDrawRank() {
-		//TODO: Build a deck, test the Draw(eRank) method
 		Deck d = new Deck();
 		Card card = d.Draw(pkgEnum.eRank.ACE);
 		assertTrue(card.geteRank()==pkgEnum.eRank.ACE);
 	}
 	@Test
 	public void TestDeckRankCount() {
-		//TODO: Build a deck, test the DeckRankCount method
 		Deck d = new Deck();
 		
 		//System.out.println(d.DeckRankCount(pkgEnum.eRank.ACE));
@@ -55,7 +51,6 @@ public class DeckTest {
 	}
 	@Test
 	public void TestDeckSuitCount() {
-		//TODO: Build a deck, test the DeckSuitCount method
 		Deck d = new Deck();
 		assertEquals(d.DeckSuitCount(pkgEnum.eSuit.DIAMONDS), 13);
 	}
